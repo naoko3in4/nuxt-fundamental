@@ -32,8 +32,8 @@ export default {
     return {
       title: 'Home Page 🍕',
       meta: [
-        { name: 'twitter:title', content: this.post.title },
-        { name: 'twitter:description', content: this.post.content },
+        { name: 'twitter:title', content: 'Nuxt Fundamentals by Vue school' },
+        { name: 'twitter:description', content: 'Nuxt + Vue school = 🍕' },
         { name: 'twitter:image', content: 'https://i.imgur.com/UYP2umJ.png' },
         { name: 'twitter:card', content: 'summary_large_image' },
       ]
