@@ -28,14 +28,14 @@ export default {
   components: {
     Logo
   },
-  head () {
+  head() {
     return {
       title: 'Home Page 🍕',
       meta: [
-        { name: 'twitter:title', content: 'Nuxt Fundamentals by Vue School'},
-        { name: 'twitter:description', content: 'Nuxt + Vue School = 🍕'},
-        { name: 'twitter:image', content: 'https://i.imgur.com/UYP2umJ.png'},
-        { name: 'twitter:card', content: 'summary_large_image'}
+        { name: 'twitter: title', content: this.post.title },
+        { name: 'twitter: description', content: this.post.content },
+        { name: 'twitter: image', content: 'https://i.imgur.com/UYP2umJ.png' },
+        { name: 'twitter: card', content: 'summary_large_image' },
       ]
     }
   },
